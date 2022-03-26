@@ -7,7 +7,7 @@ const Ac = (props) => {
             <img src={img}></img>
             <h2>{name}</h2>
             <p>Price: ${price}</p>
-            <button className='cart-btn'>Add to Cart</button>
+            <button onClick={()=>props.addToCart(props.prod)} className='cart-btn'>Add to Cart</button>
         </div>
     );
 };
