@@ -1,0 +1,72 @@
+[
+    {
+      "id": "1",
+      "name": "ALXK Adjustable Split AC",
+      "price": 18000,
+      "ratings": 4.5,
+      "img": "./image/ALXK Adjustable Split AC.webp"
+    },
+    {
+      "id": "2",
+      "name": "Classic Split System AC",
+      "price": 19600,
+      "ratings": 5.0,
+      "img": "./image/Classic Split System AC.webp"
+    },
+    {
+      "id": "3",
+      "name": "Decdeal Portable AC",
+      "price": 20500,
+      "ratings": 5.0,
+      "img": "./image/Decdeal Portable AC.webp"
+    },
+    {
+      "id": "4",
+      "name": "EqiEch Portable Mini AC",
+      "price": 21000,
+      "ratings": 5.0,
+      "img": "./image/EqiEch Portable Mini AC.webp"
+    },
+    {
+      "id": "5",
+      "name": "Mini Air Conditioner Blue",
+      "price": 20000,
+      "ratings": 5.0,
+      "img": "./image/Mini Air Conditioner Blue.webp"
+    },
+    {
+      "id": "6",
+      "name": "Nikai 1.5 Ton",
+      "price": 17000,
+      "ratings": 3.5,
+      "img": "./image/Nikai 1.5 Ton.webp"
+    },
+    {
+      "id": "7",
+      "name": "Nikai Split AC",
+      "price": 26000,
+      "ratings": 4.0,
+      "img": "./image/Nikai Split AC"
+    },
+    {
+      "id": "8",
+      "name": "Super General 2 Ton",
+      "price": 30500,
+      "ratings": 3.5,
+      "img": "./image/Super General 2 Ton.webp"
+    },
+    {
+      "id": "9",
+      "name": "USB Portable Mini AC",
+      "price": 23000,
+      "ratings": 5.0,
+      "img": "./image/USB Portable Mini AC.webp"
+    },
+    {
+      "id": "10",
+      "name": "WANGBC Portable AC",
+      "price": 16000,
+      "ratings": 4.5,
+      "img": "./image/WANGBC Portable AC.webp"
+    }
+]
