@@ -1,15 +1,22 @@
 import React from 'react';
 
 const Cart = ({cart}) => {
+    
+    let c1 = false;
+    
+
     return (
         <div>
             <h4>Selected Items</h4>
+    
             {
+            
                 cart.map(item => <li>{item.name}</li>)
             }
 
-            <button onClick={choose1}>Choose Item</button>
-            <button onClick={removeAll}>Reset All</button>
+            <button >Choose Item</button>
+            <br></br>
+            <button >Reset All</button>
         </div>
     );
 };
