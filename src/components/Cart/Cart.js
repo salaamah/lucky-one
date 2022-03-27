@@ -1,22 +1,26 @@
 import React from 'react';
 
-const Cart = ({cart}) => {
+const Cart = (props) => {
+    const {cart, emptyCart, choose1} = props;
     
-    let c1 = false;
-    
-
+    // const emptyCart = () =>{
+    //     cart = [];
+    //     document.getElementById('cart-items').innerHTML = ``;
+    // }
     return (
-        <div>
+        <div >
             <h4>Selected Items</h4>
-    
-            {
-            
+
+            <div id='cart-items'>
+            {               
                 cart.map(item => <li>{item.name}</li>)
             }
+            </div>
+            
 
-            <button >Choose Item</button>
+            <button onClick={choose1}>Choose Item</button>
             <br></br>
-            <button >Reset All</button>
+            <button onClick={emptyCart} >Reset All</button>
         </div>
     );
 };

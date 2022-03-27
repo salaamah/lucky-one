@@ -5,8 +5,7 @@ import Market from './components/Market/Market';
 function App() {
   return (
     <div className="App">
-      <Market></Market>
-      
+      <Market></Market>  
     </div>
   );
 }

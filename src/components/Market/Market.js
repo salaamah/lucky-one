@@ -15,6 +15,18 @@ const Market = () => {
         const newCart =[...cart, prod];
         setCart(newCart);
     }
+    const emptyCart = () =>{
+        const newCart = [];
+        setCart(newCart);
+    }
+    const choose1 = () =>{
+        const len = cart.length;
+        const n = Math.floor(Math.random()*len);
+        console.log(cart[n]);
+        const singleItem = [];
+        singleItem.push(cart[n]);
+        setCart(singleItem);
+    }
 
     return (
         <div>
@@ -24,7 +36,7 @@ const Market = () => {
                     {ac.map((prod )=> <Ac key={prod.id} addToCart={addToCart} prod = {prod}></Ac>)}
                 </div> 
                 <div>
-                    <Cart cart = {cart}></Cart>
+                    <Cart cart = {cart} emptyCart = {emptyCart} choose1 = {choose1}></Cart>
                 </div> 
             </div>
                 
