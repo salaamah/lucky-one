@@ -15,6 +15,7 @@
     background: #e09626c4;
     border: none;
     border-radius: 0 0 6px 6px;
+    padding: 10px;
 }
 .cart-btn:hover{
     background-color: orange;

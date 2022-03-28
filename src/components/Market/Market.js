@@ -20,9 +20,7 @@ const Market = () => {
         setCart(newCart);
     }
     const choose1 = () =>{
-        const len = cart.length;
-        const n = Math.floor(Math.random()*len);
-        console.log(cart[n]);
+        const n = Math.floor(Math.random()*(cart.length));
         const singleItem = [];
         singleItem.push(cart[n]);
         setCart(singleItem);
